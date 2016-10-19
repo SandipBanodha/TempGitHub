@@ -11,7 +11,10 @@ build:
   stage: build
   script:
   - echo building...
-  
+test:
+  stage: test
+  script:
+  - echo This is testing phase
 deployment:
   stage: deploy
   script: 
