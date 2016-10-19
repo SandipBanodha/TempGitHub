@@ -1,0 +1,18 @@
+variables:
+  Solution: runner.sln 
+before_script:
+
+stages:
+  - build
+  - test
+  - deploy
+
+build:
+  stage: build
+  script:
+  - echo building...
+  
+deployment:
+  stage: deploy
+  script: 
+  - echo deplying..
