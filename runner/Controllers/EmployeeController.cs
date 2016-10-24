@@ -1,4 +1,5 @@
-﻿using System;
+﻿using runner.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -84,6 +85,10 @@ namespace runner.Controllers
             {
                 return View();
             }
+        }
+        public ActionResult SearchEmployee(int? id)
+        {
+            return View();
         }
     }
 }
