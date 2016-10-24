@@ -86,7 +86,7 @@ namespace runner.Controllers
                 return View();
             }
         }
-        public ActionResult SearchEmployee(int? id)
+        public ActionResult SearchEmp(int? id)
         {
             return View();
         }
